@@ -1,0 +1,39 @@
+
+header {
+  display: flex;
+  height: 10vh;
+  background-color: red;
+}
+
+img {
+  // display: flex;
+  // align-items: center;
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  margin-left: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-link  {
+  text-decoration: none;
+  margin-right: 1em;
+  font-size: 20px;
+  color: black;
+}
+
+button {
+  margin: auto;
+  margin-right: 10px;
+}
