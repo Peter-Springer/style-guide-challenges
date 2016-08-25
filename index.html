@@ -3,21 +3,36 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="reset.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="styles.scss" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma" rel="stylesheet">
     <title></title>
   </head>
   <body>
-    <header>
-    <img src="github-square.svg" alt="logo" />
-    <nav role="navigation">
-      <ul id="js-navigation-menu" class="navigation-menu show">
-        <li><a class="nav-link" href="#">Products</a></li>
-        <li><a class="nav-link" href="#">About Us</a></li>
-        <li><a class="nav-link" href="#">Contact</a></li>
-      </ul>
-    </nav>
-    <button type="button" name="button">Sign Up</button>
-  </header>
+    <h1>Basic Nav/Drop Down at 500px</h1>
+    <section class="week-1">
+      <header>
+        <img class="logo" src="github-square.svg" alt="logo" />
+        <nav role="navigation">
+          <ul class="navigation-menu show">
+            <li><a class="nav-link" href="#">Products</a></li>
+            <li><a class="nav-link" href="#">About Us</a></li>
+            <li><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+          <ul class="mobile-menu">
+            <li><a class="mobile-nav-link-title" href="#">MENU</a></li>
+            <li class="mobile"><a class="mobile-nav-link" href="#">Products</a></li>
+            <li class="mobile"><a class="mobile-nav-link" href="#">About Us</a></li>
+            <li class="mobile"><a class="mobile-nav-link" href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <button id="send" type="button" name="button">Sign Up</button>
+      </header>
+      <section class="drop-down-code">
+        <p data-height="265" data-theme-id="0" data-slug-hash="ZOdBmX" data-default-tab="css,result" data-user="peter829" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/peter829/pen/ZOdBmX/">ZOdBmX</a> by Peter Springer (<a href="http://codepen.io/peter829">@peter829</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+        <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+      </section>
+      <button id="hide-button" type="button" name="button">HIDE SECTION</button>
+    </section>
     <script src="main.bundle.js"></script>
   </body>
 </html>
