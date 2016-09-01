@@ -1,0 +1,39 @@
+.week-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+article {
+  /*display: flex;
+  justify-content: center;*/
+  height: 350px;
+  width: 300px;
+  background-color: #bbcbd6;
+  margin: auto;
+  border: 2px solid black;
+}
+
+h2 {
+  margin-top: 1px;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+img {
+  /*display: flex;
+  align-items: center;*/
+  margin: auto;
+  height: 150px;
+  width: 100%;
+}
+
+.card-link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin-top: 10px;
+  color: black;
+}
